@@ -88,9 +88,8 @@ The headers are:
  - ALM - allele larger than gene size mode (match CDS length> gene mode length + gene mode length * 0.2)
  - ASM - allele smaller than gene size mode (match CDS length < gene mode length - gene mode length * 0.2)
  
- 11) Evaluate the file *statistics.txt* file : Did all the genomes have good allele calls?  If you find any genome with problems , open the *AlleleCall.txt* file and remove the corresponding line
-<details> 
-  <summary>Evaluate the file *statistics.txt* file : Did all the genomes have good allele calls?  If you find any genome with problems , open the *AlleleCall.txt* file and remove the corresponding line </summary>
+ 11) <details> <summary>Evaluate the file *statistics.txt* file : Did all the genomes have good allele calls?  If you find any genome with problems , open the *AlleleCall.txt* file and remove the corresponding line </summary>
    A: The ST230_9.fasta has 1332 locus not found (LNF). Check the file size for this genome to see if matches the other strains.
 </details>
+
 > Written with [StackEdit](https://stackedit.io/).
