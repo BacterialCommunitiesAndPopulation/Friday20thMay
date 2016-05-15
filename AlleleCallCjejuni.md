@@ -4,6 +4,8 @@
 For this hands-on module we will use [chewBACCA](https://github.com/mickaelsilva/chewBBACA) for performing the allele call on a dataset of Campylobacter jejuni , from the article 
 "[Tracing isolates from domestic human Campylobacter jejuni infections to chicken slaughter batches and swimming water using whole-genome multilocus sequence typing.](http://www.ncbi.nlm.nih.gov/pubmed/27041390)".
 
+[chewBACCA](https://github.com/mickaelsilva/chewBBACA) 's main developer is Mickael Silva (https://github.com/mickaelsilva).
+
 This dataset will have genome assemblies from 17 *C .jejuni* isolates and we will work directly on the assemblies provided.
 
 For the allele call you will need : 
@@ -52,7 +54,7 @@ you should have 1343 loci in the Oxford Campylobacter cgMLST v1.
 
 7) run the allele call
 
-     alleleCalling_ORFbased_protein_main3_local.py -i Assemblies/listGenomes.txt -g CampiPubmlstSchema/cgMLSTLoci.txt -o AlleleCall.txt -p prodigal
+     alleleCalling_ORFbased_protein_main3_local.py -i Assemblies/listGenomes.txt -g CampiPubmlstSchema/cgMLSTLoci.txt -o AlleleCall_ST230.txt -p prodigal
 
 8) The allele call should take around 20 mins to run. While the allele call is running , go to the NCBI genomes website (http://www.ncbi.nlm.nih.gov/genome/) and search Campylobacter jejuni. Download 3 genomes (your choice) in fasta format to your  /wkr/< username >/campy_cgMLST directory to include in our allele call later on.
 
@@ -92,6 +94,20 @@ The headers are:
    A: The ST230_9.fasta has 1332 locus not found (LNF). Check the file size for this genome to see if matches the other strains. Remove this genome from the AlleleCall.txt
 </details>
 
-11)
+11) The next step is to convert the AlleleCall.txt into a format that can be easily be used for PHYLOViZ to visualize the results in a tree. To do that step run 
+
+    XpressGetCleanLoci4Phyloviz.py -i AlleleCall_ST230.txt -g AlleleCall_ST230.phyloviz.txt 
+
+(yes I know...we have to work on the script names....) 
+
+the script should output the following:
+
+    deleted : 57 loci
+	total genes remaining : 1279
+
+meaning that 57 loci where removed because at least one allele was not called in one of the strains. So the final number of loci that will be used in the analysis is 1279. We will use the *AlleleCall_ST230.phyloviz.txt* in the hands-on session on PHYLOViZ
+
+12) Extra step: Follow the tutorial to run the allele call for the 3 genomes you downloaded from NCBI and add the results of the allele call for those genomes to the results you obtained to the ST230 strains (*AlleleCall_ST230.txt*).   Make sure you choose different names for the new allele call files and you create copies of the (*AlleleCall_ST230.txt*) before adding the extra information  
 
 > Written with [StackEdit](https://stackedit.io/).
+
