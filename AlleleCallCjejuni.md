@@ -92,4 +92,6 @@ The headers are:
    A: The ST230_9.fasta has 1332 locus not found (LNF). Check the file size for this genome to see if matches the other strains.
 </details>
 
+testing stackedit publishing to github
+
 > Written with [StackEdit](https://stackedit.io/).
