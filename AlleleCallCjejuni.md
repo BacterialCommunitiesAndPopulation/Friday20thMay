@@ -50,7 +50,7 @@ you should have 1343 loci in the Oxford Campylobacter cgMLST v1.
 
     export PATH="/homeappl/home/<username>/appl_taito/bact_pop_course/chewBBACA/allelecall:$PATH"
 
-7) run the allele call. Make sure 
+7) run the allele call
 
      alleleCalling_ORFbased_protein_main3_local.py -i Assemblies/listGenomes.txt -g CampiPubmlstSchema/cgMLSTLoci.txt -o AlleleCall.txt -p prodigal
 
@@ -88,10 +88,10 @@ The headers are:
  - ALM - allele larger than gene size mode (match CDS length> gene mode length + gene mode length * 0.2)
  - ASM - allele smaller than gene size mode (match CDS length < gene mode length - gene mode length * 0.2)
  
- 11) <details> <summary>Evaluate the file *statistics.txt* file : Did all the genomes have good allele calls?  If you find any genome with problems , open the *AlleleCall.txt* file and remove the corresponding line </summary>
-   A: The ST230_9.fasta has 1332 locus not found (LNF). Check the file size for this genome to see if matches the other strains.
+<details> <summary>Evaluate the file *statistics.txt* file : Did all the genomes have good allele calls?  If you find any genome with problems , open the *AlleleCall.txt* file and remove the corresponding line </summary>
+   A: The ST230_9.fasta has 1332 locus not found (LNF). Check the file size for this genome to see if matches the other strains. Remove this genome from the AlleleCall.txt
 </details>
 
-testing stackedit publishing to github
+11)
 
 > Written with [StackEdit](https://stackedit.io/).
