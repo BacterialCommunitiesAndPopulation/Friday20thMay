@@ -34,7 +34,7 @@ Now that we have the target genes in the *rematch_analysis* directory, we need t
 ReMatCh also requires a list with the name of the folders where the fastQs are. Since you have copied the contents of *81-176_sample_100x* to your *rematch_analysis* folder, this list already available there. However,  to create a new query list, you can use the command
 
 	   
-    ls */ | rev | cut -c 2- | rev > queryList.txt
+    ls -d */ | rev | cut -c 2- | rev > queryList.txt
     
     #This will create a list with the name of the folder you want to analyse
 
