@@ -41,7 +41,7 @@ The description of how the  *Campylobacter sp*. cgMLST schema was created can be
 	
 4) Create a list of the the loci to be used on the allele call. We will use all the loci available on the schema so we will use the same command as in the last step:
 
-	cd CampiPubmlstSchema/
+	cd CampyPubmlstSchema/
 	ls *.fasta | xargs -I {} sh -c 'echo $(pwd)/{}' > cgMLSTLoci.txt
 
 5) you can check the number of loci in the schema by running the following command:
@@ -57,7 +57,7 @@ you should have 1343 loci in the Oxford Campylobacter cgMLST v1.
 
 7) run the allele call
 
-     alleleCalling_ORFbased_protein_main3_local.py -i Assemblies/listGenomes.txt -g CampiPubmlstSchema/cgMLSTLoci.txt -o AlleleCall_ST230.txt -p prodigal
+     alleleCalling_ORFbased_protein_main3_local.py -i Assemblies/listGenomes.txt -g CampyPubmlstSchema/cgMLSTLoci.txt -o AlleleCall_ST230.txt -p prodigal
 
 8) The allele call should take around 20 mins to run. While the allele call is running , go to the NCBI genomes website (http://www.ncbi.nlm.nih.gov/genome/) and search Campylobacter jejuni. Download 3 genomes (your choice) in fasta format to your  /wkr/< username >/campy_cgMLST directory to include in our allele call later on.
 
