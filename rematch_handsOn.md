@@ -2,7 +2,7 @@
 
 In this hands-on module we will use ReMatCh (https://github.com/bfrgoncalves/ReMatCh/tree/course_version) to identify the presence/absence of a set of target genes and also use it to identify sequence variants based on read mapping against a reference. Information about its use and parameters can be found at the application's GitHub page.
 
-This data set will consist of 8 sequencing runs of *Campilobacter jejuni* that will be used has query, and 8 target genes that we want to match the reads to.
+This data set will consist of 8 sequencing runs of *Campylobacter jejuni* that will be used has query, and 8 target genes that we want to match the reads to.
 
 To start the analysis, make sure you have loaded the necessary modules and added the necessary software to the PATH.
 
