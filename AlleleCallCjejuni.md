@@ -28,8 +28,8 @@ The description of how the  *Campylobacter sp*. cgMLST schema was created can be
  2) Copy the Schema files and the Assemblies from the shared data folder to this directory. 
 		
     cd campy_cgMLST
-    mv ../course_data/shared_all/Friday20thMay/Campylobacter/Assemblies/ .
-    mv ../course_data/shared_all/Friday20thMay/Campylobacter/CampiPubmlstSchema/ .
+    cp -r ../course_data/shared_all/Friday20thMay/Campylobacter/Assemblies/ .
+    cp -r ../course_data/shared_all/Friday20thMay/Campylobacter/CampyPubmlstSchema/ .
   
   Note: The schema dir also includes another dir (*short*) that includes the auxiliary files for the allele call. These are Alleles for each loci that are used for the allele call and the BSR pre-calculated for those alleles. When creating a new schema you have to create this dir. During the working groups exercise you will have an example of the creation of a schema.
    
