@@ -1,16 +1,17 @@
 
 ## Allele call using Campylobacter jejuni data ##
 
-For this hands-on module we will use [chewBACCA](https://github.com/mickaelsilva/chewBBACA) for performing the allele call on a dataset of Campylobacter jejuni , from the article 
+For this hands-on module we will use [chewBBACA](https://github.com/mickaelsilva/chewBBACA) for performing the allele call on a dataset of Campylobacter jejuni , from the article 
 "[Tracing isolates from domestic human Campylobacter jejuni infections to chicken slaughter batches and swimming water using whole-genome multilocus sequence typing.](http://www.ncbi.nlm.nih.gov/pubmed/27041390)".
 
-[chewBACCA](https://github.com/mickaelsilva/chewBBACA) 's main developer is Mickael Silva (https://github.com/mickaelsilva).
+[chewBBACA](https://github.com/mickaelsilva/chewBBACA) 's main developer is Mickael Silva (https://github.com/mickaelsilva).
 
 This dataset will have genome assemblies from 17 *C .jejuni* isolates and we will work directly on the assemblies provided.
 
-For the allele call you will need : 
-1) a cg/wgMLST schema - one fasta file per loci
-2) assemblies 
+For the allele call you will need :  
+
+ 1. a cg/wgMLST schema - one fasta file per loci
+ 2. assemblies in fasta format
 
 The schema that we will use is available from PubMLST website (http://pubmlst.org/) developed by Keith Jolley (Jolley & Maiden 2010, BMC Bioinformatics, 11:595) and sited at the University of Oxford. The development of that website was funded by the Wellcome Trust.
 
@@ -30,6 +31,8 @@ The description of how the  *Campylobacter sp*. cgMLST schema was created can be
     mv ../shared_all/Friday20thMay/Campylobacter/Assemblies/ .
     mv ../shared_all/Friday20thMay/Campylobacter/CampiPubmlstSchema/ .
   
+  Note: The schema dir also includes another dir (*short*) that includes the auxiliary files for the allele call. These are Alleles for each loci that are used for the allele call and the BSR pre-calculated for those alleles. When creating a new schema you have to create this dir. During the working groups exercise you will have an example of the creation of a schema.
+   
   3) Create a list of the assembly files with the full path to each to the files
 
 	cd Assemblies/
