@@ -26,7 +26,7 @@ The next step is to define the **target** sequences to which we will map our rea
 
 Now that we have the target genes in the *rematch_analysis* directory, we need to define the **queries**. ReMatCh gives two options to define queries. It can download fastQ files from ENA by using run assessing numbers, or it can perform the analysis on pre-defined data. In this module we will use data that is available in the course shared folder. As so, copy the *81-176_sample_100x* folder available at  `/wrk/<username>/course_data/shared_all/Friday20thMay/Campylobacter/81-176/81-176_sample_100x` to the *rematch_analysis* directory with the command
 
-    cp /wrk/<username>/course_data/shared_all/Friday20thMay/Campylobacter/81-176/81-176_sample_100x/. ./
+    cp -r /wrk/<username>/course_data/shared_all/Friday20thMay/Campylobacter/81-176/81-176_sample_100x/. ./
     
     #replace <username> by your user account
 
@@ -40,11 +40,11 @@ ReMatCh also requires a list with the name of the folders where the fastQs are. 
 
 Now that we have the rematch_analysis work directory set up, we can run ReMatCh. Make sure you have loaded biokit module and added ReMatCh and BEDtools in the PATH. Then, use the command
 
-    rematch.py -l /wrk/<username>/rematch_analysis/queryList.txt -d /wrk/<username>/rematch_analysis/ -picard picard -threads 16 -gatk /wrk/<username>/course_data/shared_all/Friday20thMay/dependencies/GenomeAnalysisTK.jar -r /wrk/<username>/rematch_analysis/listTargetsRematch.fasta -bowtieBuild -clean -xtraSeq 100
+    rematch.py -l queryList.txt -d . -picard picard -threads 16 -gatk /wrk/<username>/course_data/shared_all/Friday20thMay/dependencies/GenomeAnalysisTK.jar -r listTargetsRematch.fasta -bowtieBuild -clean -xtraSeq 100
     
     #replace <username> by your user account
 
-**NOTE:** We have used the *-xtraSeq* parameter with a value of 100 since the reference targets we have used had extra 100 bp on each side.
+**NOTE:** We have used the *-xtraSeq* parameter with a value of 100 since the reference targets we have used had an extra 100 bp on each side. This is to guaranty a good coverage analysis over the entire gene. Otherwise, coverage problems would appear in the beginning and in the end of the sequence. 
 
 After finishing the analysis, a new folder called *rematch_results* will be available inside the folder with the fastQ files.
 
@@ -64,7 +64,7 @@ After finishing the analysis, a new folder called *rematch_results* will be avai
 
 Finally, to get the results of presence/absence of the target genes in the sequencing run, we need to use other ReMatCh command, the *--mergeResults*. It merges all the results available in the work directory.
 
-    rematch.py --mergeResults /wrk/<username>/rematch_analysis
+    rematch.py --mergeResults .
     
     #replace <username> by your user account
 
