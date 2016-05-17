@@ -2,7 +2,7 @@
 
 In this hands-on module we will use [ReMatCh](https://github.com/bfrgoncalves/ReMatCh/tree/course_version) to identify the presence/absence of a set of target genes and also use it to identify sequence variants based on read mapping against a reference. Information about its use and parameters can be found at the application's [GitHub page](https://github.com/bfrgoncalves/ReMatCh/tree/course_version).
 
-This data set will consist of 8 sequencing runs of *Campylobacter jejuni* that will be used has query, and 8 target genes that we want to match the reads to.
+This data set will consist of 8 sequencing runs of *Campylobacter jejuni* that will be used has query, and 8 target genes that we want to match the reads to. The *C. jejuni* genomes were obtained from different spontaneous Ciprofloxacin resistance mutants of the reference stain 81-176. Details can be found in the following paper: ["Effect of ciprofloxacin exposure on DNA repair mechanisms in *Campylobacter jejuni*" Microbiology (2013), 159, 2513–2523] (http://www.microbiologyresearch.org/docserver/fulltext/micro/159/12/2513_mic069203.pdf?expires=1463468864&id=id&accname=guest&checksum=7D107820B32FBE0B15D4EF33E65D7A90). All isolates p1, p3, p4 and p6 are resistant to Ciprofloxacin. 
 
 To start the analysis, make sure you have loaded the necessary modules and added the necessary software to the PATH.
 
@@ -81,6 +81,6 @@ It returns a file of presence/absence of the targets (*mergedResults.tab*) and a
 
 To finish our analysis, explore the *gyrA_merged_sequences.fasta* containing the consensus sequences produced by ReMatCh. **How many mutations can be found? Does that produce any modification in the protein sequence?** Use [MView](http://www.ebi.ac.uk/Tools/msa/mview/) and [EMBOSS Transeq](http://www.ebi.ac.uk/Tools/st/emboss_transeq/) to visualize the results.
 
-
+The most common mutation in GyrA lead to Ciprofloxacin resistance are the amino acid substitution Thr86AIle, and the less frequent Asp90AAsn and Ala70AThr. **Can you detect more mutations at position 86, 70 or 90?**
 
 > Written with [StackEdit](https://stackedit.io/).
