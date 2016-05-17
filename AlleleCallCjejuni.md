@@ -2,7 +2,7 @@
 ## Allele call using Campylobacter jejuni data ##
 
 For this hands-on module we will use [chewBBACA](https://github.com/mickaelsilva/chewBBACA) for performing the allele call on a dataset of *Campylobacter jejuni*, from the article 
-"[Tracing isolates from domestic human *Campylobacter jejuni* infections to chicken slaughter batches and swimming water using whole-genome multilocus sequence typing](http://www.ncbi.nlm.nih.gov/pubmed/27041390)".
+[Kovanen et al. "Tracing isolates from domestic human *Campylobacter jejuni* infections to chicken slaughter batches and swimming water using whole-genome multilocus sequence typing" Int. J. Food. Microbiol. 2016; 226: 53-60.](http://www.ncbi.nlm.nih.gov/pubmed/27041390).
 
 [chewBBACA](https://github.com/mickaelsilva/chewBBACA)'s main developer is Mickael Silva (https://github.com/mickaelsilva).
 
