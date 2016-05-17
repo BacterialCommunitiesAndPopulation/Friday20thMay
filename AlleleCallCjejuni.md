@@ -25,7 +25,7 @@ The description of how the  *Campylobacter jejuni/coli*. cgMLST schema was creat
     
 **NOTE:** Remember with *Ctrl a d* you can always close the *screen* session. You can reattach the *screen* by typing *screen -r job title*
 
-1) create a directory for the cgMLST analysis:
+1) Create a directory for the cgMLST analysis:
 
     mkdir /wrk/<username>/campy_cgMLST
 
@@ -53,7 +53,7 @@ The description of how the  *Campylobacter jejuni/coli*. cgMLST schema was creat
 	cat cgMLSTLoci.txt | wc
 	cd ..
 	 
-you should have 1343 loci in the Oxford *Campylobacter jejuni/coli* cgMLST v1.
+**NOTE:** you should have 1343 loci in the Oxford *Campylobacter jejuni/coli* cgMLST v1.
 
 6) Make sure that chewBBACA scripts are on the PATH. (Substitute < username > by your Taito user name)
 
