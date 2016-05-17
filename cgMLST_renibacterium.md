@@ -16,7 +16,9 @@ In this section we will walk you through all steps necessary to perform an wgMLS
     screen -S <job title>
     module load biokit
     
-**NOTE:** Remember with *Ctrl a d* you can always close the *screen* session. You can reattach the *screen* by typing *screen -r job title*. Also verify if you have chewBBACA dirs in the PATH. If not add them.
+**NOTE:** Remember with *Ctrl a d* you can always close the *screen* session. You can reattach the *screen* by typing *screen -r job title*. Also verify if you have chewBBACA dirs in the PATH. If not add them: (Substitute < username > by your Taito user name)
+
+    export PATH="/homeappl/home/<username>/appl_taito/bact_pop_course/chewBBACA/allelecall:$PATH"
 
 2) Create a new folder where you will store the *Renibacterium salmoninarum* data sets
 
