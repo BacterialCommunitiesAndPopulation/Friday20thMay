@@ -63,7 +63,7 @@ Note: In some cases, FASTA files can have different characters depending on the 
     #Convert all .fasta files
 
 ###3. Using chewBBACA to perform the Allele Call
-
+Follow the instructions for *C. jejuni* in the [allele call tutorial](https://github.com/BacterialCommunitiesAndPopulation/Friday20thMay/blob/master/AlleleCallCjejuni.md) for call the alleles of the Renibacterium dataset. You should obtain the input file for PHYLOViZ.
 
 
 > Written with [StackEdit](https://stackedit.io/).
