@@ -16,7 +16,9 @@ In this section we will walk you through all steps necessary to perform an wgMLS
     screen -S <job title>
     module load biokit
     
-**NOTE:** Remember with *Ctrl a d* you can always close the *screen* session. You can reattach the *screen* by typing *screen -r job title*. Also verify if you have chewBBACA dirs in the PATH. 
+**NOTE:** Remember with *Ctrl a d* you can always close the *screen* session. You can reattach the *screen* by typing *screen -r job title*. 
+
+Also verify if you have chewBBACA dirs in the PATH. 
 
     echo $PATH
     
