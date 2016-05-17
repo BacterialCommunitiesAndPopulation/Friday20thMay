@@ -13,7 +13,7 @@ For the allele call you will need :
  1. A cg/wgMLST schema - one fasta file per loci
  2. Assemblies in fasta format
 
-The schema that we will use is available from [PubMLST website](http://pubmlst.org/) developed by Keith Jolley [BIGSdb: Scalable analysis of bacterial genome variation at the population level](Jolley & Maiden 2010, BMC Bioinformatics, 11:595) and sited at the University of Oxford. The development of that website was funded by the Wellcome Trust.
+The schema that we will use is available from [PubMLST website](http://pubmlst.org/) developed by Keith Jolley BIGSdb: Scalable analysis of bacterial genome variation at the population level](Jolley & Maiden 2010, BMC Bioinformatics, 11:595) and sited at the University of Oxford. The development of that website was funded by the Wellcome Trust.
 
 The description of how the  *Campylobacter jejuni/coli*. cgMLST schema was created can be found at at: [http://pubmlst.org/campylobacter/info/cgMLST.shtml](http://pubmlst.org/campylobacter/info/cgMLST.shtml)
 
