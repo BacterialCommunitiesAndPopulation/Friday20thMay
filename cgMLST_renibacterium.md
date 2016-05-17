@@ -12,8 +12,8 @@ In this section we will walk you through all steps necessary to perform an wgMLS
 
 1) Make sure you have software available. For Taito run
 
-    sinteractive
     screen -S <job title>
+    sinteractive
     module load biokit
     
 **NOTE:** Remember with *Ctrl a d* you can always close the *screen* session. You can reattach the *screen* by typing *screen -r job title*. 
