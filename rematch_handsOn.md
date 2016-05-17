@@ -11,6 +11,7 @@ To start the analysis, make sure you have loaded the necessary modules and added
     module load biokit
   
 The data that will be used will be available on the shared data folder that you sync in the beginning of the course, at `/wrk/<username>/course_data/shared_all/Friday20thMay/Campylobacter/81-176` 
+
 **NOTE:** Remember with *Ctrl a d* you can always close the *screen* session. You can reattach the screen by typing *screen -r <job title>
 
 ###Defining a work directory
