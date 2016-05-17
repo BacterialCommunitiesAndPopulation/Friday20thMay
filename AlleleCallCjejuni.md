@@ -93,8 +93,7 @@ The headers are:
  - ALM - allele larger than gene size mode (match CDS length> gene mode length + gene mode length * 0.2)
  - ASM - allele smaller than gene size mode (match CDS length < gene mode length - gene mode length * 0.2)
  
-<details> <summary>Evaluate the file *statistics.txt* file: Did all the genomes have good allele calls?  If you find any genome with problems, open the *AlleleCall.txt* file and remove the corresponding line </summary>.
-The ST230_9.fasta has 1332 locus not found (LNF). Check the file size for this genome to see if matches the other strains. Remove this genome from the AlleleCall.txt
+<details> <summary>Evaluate the file *statistics.txt* file: Did all the genomes have good allele calls?  If you find any genome with problems, open the *AlleleCall.txt* file and remove the corresponding line. </summary> The ST230_9.fasta has 1332 locus not found (LNF). Check the file size for this genome to see if matches the other strains. Remove this genome from the AlleleCall.txt
 </details>
 
 11) The next step is to convert the AlleleCall.txt into a format that can be easily be used for PHYLOViZ to visualize the results in a tree. To do that step run 
