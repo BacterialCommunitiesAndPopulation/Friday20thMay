@@ -6,8 +6,8 @@ This data set will consist of 8 sequencing runs of *Campylobacter jejuni* that w
 
 To start the analysis, make sure you have loaded the necessary modules and added the necessary software to the PATH.
 
-    sinteractive
     screen -S <job title>
+    sinteractive
     module load biokit
   
 The data that will be used will be available on the shared data folder that you sync in the beginning of the course, at `/wrk/<username>/course_data/shared_all/Friday20thMay/Campylobacter/81-176` 
