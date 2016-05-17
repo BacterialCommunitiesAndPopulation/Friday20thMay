@@ -17,12 +17,12 @@ The schema that we will use is available from [PubMLST website](http://pubmlst.o
 
 The description of how the  *Campylobacter jejuni/coli*. cgMLST schema was created can be found at at: [http://pubmlst.org/campylobacter/info/cgMLST.shtml](http://pubmlst.org/campylobacter/info/cgMLST.shtml)
 
-0) Make sure you have your and software available and on the path. For Taito run
+0) Make sure you have software available. For Taito run
 
     sinteractive
     screen -S <job title>
     module load biokit
-
+    
 **NOTE:** Remember with *Ctrl a d* you can always close the *screen* session. You can reattach the *screen* by typing *screen -r job title*
 
 1) create a directory for the cgMLST analysis:
