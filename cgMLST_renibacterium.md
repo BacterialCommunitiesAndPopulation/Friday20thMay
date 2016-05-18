@@ -22,10 +22,13 @@ Also verify if you have chewBBACA dirs in the PATH.
 
     echo $PATH
     
-If not add them: (Substitute < username > by your Taito user name)
+If not ( you should have 3 chewBBACA dirs) add them: 
+(Substitute < username > by your Taito user name)
 
     export PATH="/homeappl/home/<username>/appl_taito/bact_pop_course/chewBBACA/allelecall:$PATH"
-    
+      export PATH="/homeappl/home/<username>/appl_taito/bact_pop_course/chewBBACA/createschema:$PATH"
+        export PATH="/homeappl/home/<username>/appl_taito/bact_pop_course/chewBBACA/utils:$PATH"
+        
 2) Create a new folder where you will store the *Renibacterium salmoninarum* data sets
 
     cd /wrk/<username/
