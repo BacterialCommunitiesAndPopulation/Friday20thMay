@@ -26,7 +26,7 @@ If not ( you should have 3 chewBBACA dirs) add them by using the source command:
 
    `source ~/appl_taito/source_course_path`
         
-3) Create a new folder where you will store the *Renibacterium salmoninarum* data sets
+2) Create a new folder where you will store the *Renibacterium salmoninarum* data sets
 
     cd /wrk/<username/
     mkdir reni_cgMLST
@@ -60,7 +60,7 @@ This creates a dir named *short* which will contain a copy of each of the allele
     cp -r /wrk/<username>/course_data/shared_all/Thursday19thMay/Renibacterium_Example/Assemblies/ .
     #Replace username by your user account
  
-2) **chewBBACA** also needs a list as input with the FULL PATH of the genomes that will be used as query and also from the genes that will be used in the schema.
+3) **chewBBACA** also needs a list as input with the FULL PATH of the genomes that will be used as query and also from the genes that will be used in the schema.
 		
 To create those lists, run the following commands
 
