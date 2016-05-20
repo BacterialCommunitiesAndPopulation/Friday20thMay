@@ -26,7 +26,7 @@ If not ( you should have 3 chewBBACA dirs) add them by using the source command:
 
    `source ~/appl_taito/source_course_path`
         
-2) Create a new folder where you will store the *Renibacterium salmoninarum* data sets
+3) Create a new folder where you will store the *Renibacterium salmoninarum* data sets
 
     cd /wrk/<username/
     mkdir reni_cgMLST
