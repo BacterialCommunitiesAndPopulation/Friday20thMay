@@ -1,0 +1,19 @@
+Sample ID		Source	Place	date	year
+ST230_1.fasta	Human	Northern Savonia	12.7.	2012
+ST230_2.fasta	Human	Northern Savonia	16.7.	2012
+ST230_3.fasta	Human	Northern Savonia	3.8.	2012
+ST230_4.fasta	Human	Northern Savonia	16.8.	2012
+ST230_10.fasta	Human	Northern Savonia	12.7.	2012
+ST230_11.fasta	Human	Northern Savonia	18.8.	2012
+ST230_12.fasta	Human	Northern Savonia	20.8.	2012
+ST230_13.fasta	Human	Northern Savonia	10.8.	2012
+ST230_14.fasta	Human	Central Finland	17.7.	2012
+ST230_15.fasta	Human	Central Finland	16.7.	2012
+ST230_16.fasta	Human	Central Finland	18.7.	2012
+ST230_17.fasta	Human	Central Finland	19.7.	2012
+ST230_18.fasta	Human	Central Finland	30.7.	2012
+ST230_5.fasta	Chicken	C16	20.7.	2012
+ST230_6.fasta	Chicken	C8	24.7.	2012
+ST230_7.fasta	Chicken	C20	9.8.	2012
+ST230_8.fasta	Swimming water	Southern Savonia	9.7.	2012
+ST230_9.fasta	Swimming water	Southern Savonia	9.7.	2012
