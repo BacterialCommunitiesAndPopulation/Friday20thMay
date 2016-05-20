@@ -82,8 +82,8 @@ To perform the allele call on the *Renibacterium* dataset, we will run the appli
 
 Copy the *chewbbaca_job.sh* file from the shared folder to the reni_cgMLST folder with the command
 
-`cp /wrk/<username>/course_data/shared_all/Friday20thMay/Renibacterium/chewbbaca_job.sh /wrk/<username>/reni_cgMLST/`
-#replace <username> by your user account
+    cp /wrk/<username>/course_data/shared_all/Friday20thMay/Renibacterium/chewbbaca_job.sh /wrk/<username>/reni_cgMLST/
+    #replace <username> by your user account
 
 Open the batch file in `/wrk/<username>/reni_cgMLST/chewbbaca_job.sh`
 
