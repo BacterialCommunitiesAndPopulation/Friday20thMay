@@ -19,4 +19,4 @@ Time | syllabus
 **13:00 - 13:30** | *Lecture*: Minnimum Spanning Trees in Genomic Epidemiology.(JAC) [Slides](MST_GenomicEpi_Helsinki_20May2016.pptx)
 **13:30 - 14:00** | *Lecture*: PHYLOViZ online: Integration of metadata on MSTs and MST analysis. (BRG)
 **14:00 - 15:30** | *Hands-on*: Visualizing the allele calls of *Campylobacter jejuni* and *Renibacterium salmoninarum* (JAC + BRG)
-**15:30 - 16:30** | *Hands-on/Lecture*: [ReMatch: using mapping approaches for AMR/virulence gene finding from reads.](https://github.com/BacterialCommunitiesAndPopulation/Friday20thMay/blob/master/rematch_handsOn.md)(JAC + BRG) [slides] (ReMatCh_Helsinki_20May2016.pptx)
+**15:30 - 16:30** | *Hands-on/Lecture*: [ReMatch: using mapping approaches for AMR/virulence gene finding from reads.](https://github.com/BacterialCommunitiesAndPopulation/Friday20thMay/blob/master/rematch_handsOn.md)(JAC + BRG) [Slides] (ReMatCh_Helsinki_20May2016.pptx)
